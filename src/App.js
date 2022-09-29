@@ -6,24 +6,27 @@ import ApprovalCard from './ApprovalCard';
 export default function App() {
   return (
     <div className="ui container">
-      <ApprovalCard >
+      <ApprovalCard>
         <CommentDetails
           author="Sam"
           timeAgo="Today at 6:00pm"
           post="Nice blog post"
         />
       </ApprovalCard>
-
-      <CommentDetails
-        author="Nosa"
-        timeAgo="Today at 7:00am"
-        post="Glad to be a part of this"
-      />
-      <CommentDetails
-        author="Cynthia"
-        timeAgo="Yesterday at 5:00pm"
-        post="Today is a great day"
-      />
+      <ApprovalCard>
+        <CommentDetails
+          author="Nosa"
+          timeAgo="Today at 7:00am"
+          post="Glad to be a part of this"
+        />
+      </ApprovalCard>
+      <ApprovalCard>
+        <CommentDetails
+          author="Cynthia"
+          timeAgo="Yesterday at 5:00pm"
+          post="Today is a great day"
+        />
+      </ApprovalCard>
     </div>
   );
 }
