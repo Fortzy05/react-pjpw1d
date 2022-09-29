@@ -2,6 +2,7 @@ import React from 'react';
 
 const CommentDetails = (props) => {
   return (
+    
     <div className="ui comments">
       <div className="comment">
         <div>
